@@ -20,12 +20,10 @@ body {
 }
 .boy {
     left: 10%;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="12" r="10" fill="black"/><line x1="32" y1="22" x2="32" y2="42" stroke="black" stroke-width="4"/><line x1="32" y1="42" x2="22" y2="62" stroke="black" stroke-width="4"/><line x1="32" y1="42" x2="42" y2="62" stroke="black" stroke-width="4"/><line x1="32" y1="30" x2="22" y2="40" stroke="black" stroke-width="4"/><line x1="32" y1="30" x2="42" y2="40" stroke="black" stroke-width="4"/></svg>') no-repeat center/contain;
     animation: boyMove 5s infinite alternate;
 }
 .girl {
     right: 10%;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="12" r="10" fill="pink"/><line x1="32" y1="22" x2="32" y2="42" stroke="pink" stroke-width="4"/><line x1="32" y1="42" x2="22" y2="62" stroke="pink" stroke-width="4"/><line x1="32" y1="42" x2="42" y2="62" stroke="pink" stroke-width="4"/><line x1="32" y1="30" x2="22" y2="40" stroke="pink" stroke-width="4"/><line x1="32" y1="30" x2="42" y2="40" stroke="pink" stroke-width="4"/></svg>') no-repeat center/contain;
 }
 @keyframes boyMove {
     0% { transform: translateX(0); }
